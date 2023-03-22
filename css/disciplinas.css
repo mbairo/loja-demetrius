@@ -1,0 +1,105 @@
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:1px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+    z-index:100;
+}
+
+.my-float{
+	margin-top:16px;	
+}
+
+#color-white{
+    color: white;
+}
+
+#color-white:hover{
+    color: black;
+}
+
+#color-white-h1{
+    color: white;
+}
+
+#tr-hover:hover {
+    background-color: rgb(182, 218, 219);
+}
+
+#bgBtnMaterial {
+    background-color: rgb(93, 220, 252);
+    border-radius: 50px;
+    border: none;
+    height: 30px;
+    width: 100px;
+}
+#bgBtnMaterial:hover {
+    background-color: yellow;
+    text-decoration: underline;
+    border: solid 2px black;
+}
+
+#bgBtnMatriculese {
+    background-color: rgb(255, 111, 0);
+    border-radius: 50px;
+    border: none;
+    height: 30px;
+    width: 120px;
+}
+#bgBtnMatriculese:hover {
+    background-color: yellow;
+    text-decoration: underline;
+    border: solid 2px;
+}
+
+.cardsContainer{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+	grid-gap: 50px;
+}
+
+.cardsContainer .cardTitle{
+	text-align: center;
+	padding-top: 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.cardsContainer .cardText{
+	padding: 0 20px 20px 20px;	
+	line-height: 22px;
+    font-size: 20px;
+}
+
+#reprovado{
+    color: red;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+#btnPagar{
+    text-decoration: none;
+}
+#btnPagar:hover {
+    background-color: yellow;
+    border-width: 2px;
+    text-decoration: underline;
+}
+
+#color-black {
+    color: black;
+}
+
+#linkPagar {
+    color: black;
+    text-decoration: none;
+} 
+#linkPagar:hover {
+    text-decoration: underline;
+}

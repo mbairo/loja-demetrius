@@ -1,0 +1,29 @@
+{
+    "disciplinasCursando": [
+        {
+            "codigo": 1,
+            "materia": "Matematica",
+            "link": "https://download.inep.gov.br/educacao_basica/encceja/material_estudo/livro_estudante/encceja_matematica_ens_medio.pdf"
+        },
+        {
+            "codigo": 2,
+            "materia": "Porguês",
+            "link": "https://download.inep.gov.br/educacao_basica/encceja/material_estudo/livro_estudante/lingua_portuguesa.pdf"
+        },
+        {
+            "codigo": 3,
+            "materia": "Ed. Física",
+            "link": "http://portal.mec.gov.br/docman/dezembro-2010-pdf/7170-3-6-educacao-fisica-ensino-fundamental-walter-bracht/file"
+        }
+    ],
+    "disciplinasOfertadas": [
+        {
+            "materia": "Ed. Financeira",
+            "link": "../matricula/matriculaextra.html"
+        },
+        {
+            "materia": "Róbotica",
+            "link": "../matricula/matriculaextra.html"
+        }
+    ]
+}
