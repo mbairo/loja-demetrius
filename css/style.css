@@ -39,3 +39,12 @@ header {
 .my-whatsapp{
 	margin-top:16px;	
 }
+
+
+
+/* Produtos */
+.produtos{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+	grid-gap: 50px;
+}

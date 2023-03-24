@@ -17,13 +17,17 @@ http.onload = function () {
                 // window.alert("Deu certo: " + produtosJson[i].preco);
 
                 constroiCard += `
-                        <img src="${produtosJson[i].img}">
-                        <p>${produtosJson[i].nome}</p>
-                        <p>${produtosJson[i].descricao}</p>
+                <div>
+                <div class="card" style="width: 36rem;">
+                        <img class="card-img-top" src="${produtosJson[i].img}">
+                        <p class="cardTitle">${produtosJson[i].nome}</p>
+                        <p class="cardText">${produtosJson[i].descricao}</p>
                         <p>${produtosJson[i].preco}</p>                    
                         <a href="// TODO: link para o carrinho" class="btn btn-primary id="cardTitlex" target="_blank">Comprar</a>                       		
+                    </div>    
+                </div>   
 			`;
-            }          
+            }
         }
         document.querySelector("#produto-selecionado").innerHTML = constroiCard;
         console.log("Aeeeeeee: ", constroiCard);

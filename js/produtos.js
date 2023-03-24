@@ -6,16 +6,22 @@ http.onload = function () {
         let produtosJson = JSON.parse(this.responseText);
         let constroiCard = "";
 
-        for(let item of produtosJson){   
+        for (let item of produtosJson) {
             constroiCard += `
-            <img src="${item.img}">
-            <p>${item.nome}</p>
-            <p>${item.descricao}</p>
-            <p>${item.preco}</p>                    
-            <a href="// TODO: link para o carrinho" class="btn btn-primary id="cardTitlex" target="_blank">Comprar</a>                       		
+            <div>
+            <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="${item.img}">
+                    <div class="card-body">
+                    <p class="cardTitle">${item.nome}</p>
+                    <p class="cardText">${item.descricao}</p>
+                    <p>${item.preco}</p>  
+                    </div>                  
+                    <a href="// TODO: link para o carrinho" class="btn btn-primary id="cardTitlex" target="_blank">Comprar</a>                       		
+                </div>    
+            </div>   
         `;
         }
-        
+
         document.querySelector("#produtos").innerHTML = constroiCard;
         console.log("Aeeeeeee: ", constroiCard);
     }
