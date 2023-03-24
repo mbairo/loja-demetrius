@@ -23,7 +23,7 @@ http.onload = function () {
                         <p class="cardTitle">${produtosJson[i].nome}</p>
                         <p class="cardText">${produtosJson[i].descricao}</p>
                         <p>${produtosJson[i].preco}</p>                    
-                        <a href="// TODO: link para o carrinho" class="btn btn-primary id="cardTitlex" target="_blank">Comprar</a>                       		
+                        <a href="// TODO: link para o carrinho" class="btn btn-primary id="cardTitlex" target="_blank">Adicionar ao Carrinho</a>                       		
                     </div>    
                 </div>   
 			`;

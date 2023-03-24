@@ -3,6 +3,12 @@ header {
     /* melhorar isso */
 }
 
+body {
+    min-height: 100%;
+position: relative;
+} 
+
+
 #brand-name {
     color: rgb(78, 35, 35);
     padding: 0px;
@@ -43,7 +49,7 @@ header {
 
 
 /* Produtos */
-.produtos{
+#produtos{
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(350px, auto));
 	grid-gap: 50px;
