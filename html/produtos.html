@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="mbairo" content="">
-    <title>Demetrius/title>
+    <title>Demetrius</title>
     <!-- CSS Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
@@ -20,6 +20,7 @@
     <link href="/css/style.css" rel="stylesheet">
     <!-- Icon para o navegador  -->
     <link rel="icon" href="/assets/img-logo/box.png">
+
 </head>
 
 <body>
@@ -59,9 +60,13 @@
                         <li class="nav-item">
                             <a class="nav-link" href="/html/duvidas.html">Dúvidas</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/html/carrinho.html">Carrinho</a>
+                        </li>
                     </ul>
                     <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Pesquisar">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Pesquisar"
+                            id="search">
                         <button class="btn btn-outline-success" type="submit">Pesquisar</button>
                     </form>
                 </div>
@@ -69,17 +74,17 @@
         </nav>
     </header>
 
-    <div class="container marketing"><br>        
-        <!-- Construção -->
-        <h2>Programador trabalhando... ou ao menos deveria </h2>
-        <p> Se estiver vendo essa página mande um zap para: 41 998775437</p>
-    
+    <div class="container marketing"><br>
+        <!-- Produtos -->
+        <div id="produtos"></div>
+
+    </div>
     <!-- Footer -->
     <footer class="container">
         <!-- whatsApp -->
         <p>&copy;ADB CNPJ: 87486746518468 &middot; <a href="#">Contato</a> &middot; <a href="#">Quem somos</a></p>
-        <a href="https://api.whatsapp.com/send/?phone=5541998775437&text&app_absent=0" class="float" target="_blank"><i
-                class="fa fa-whatsapp my-float"></i></a>
+        <a href="https://api.whatsapp.com/send/?phone=5541998775437&text&app_absent=0" class="whatsapp"
+            target="_blank"><i class="fa fa-whatsapp my-whatsapp"></i></a>
 
         <p class="float-right btn" id="btn-topo"><a href="#">Voltar ao topo</a></p>
     </footer>
@@ -88,14 +93,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
-    <!-- Popper - Talvez nao seja necessario utilizar -->
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <!-- Jquery - Talvez nao seja necessario utilizar -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+
+    <script src="/js/produtos.js"></script>
 </body>
 
 </html>

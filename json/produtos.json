@@ -1,24 +1,58 @@
 [
         {
             "id": 1,
-            "nome": "Roupa Feminina",
-            "img": "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/3854721/2018/3/12/11520844673915-BARESKIN-Women-Black-Solid-Lightweight-Leather-Jacket-7761520844673718-1.jpg",
-            "descricao": "asdf asdf asdf ",
-            "preco": "R$128,00"
+            "nome": "Monitor LG 29' widescreen",
+            "img": "/assets/img-produtos/monitor-1.jpg",
+            "descricao": "A resolução (2560x1080) UltraWide™ Full HD de 21:9 oferece 33% mais espaço de tela em comparação com o monitor de resolução Full HD. Aproveite seu webinar com materiais maiores e mais participantes graças à ela.",
+            "preco": "R$1.128,00"
         },
         {
             "id": 2,
-            "nome": "Roupa Feminina",
-            "img": "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/3854721/2018/3/12/11520844673837-BARESKIN-Women-Black-Solid-Lightweight-Leather-Jacket-7761520844673718-4.jpg",
-            "descricao": "asdf asdf asdf ",
-            "preco": "R$145,00"
+            "nome": "Mouse Gamer ",
+            "img": "/assets/img-produtos/mouse-3.jpg",
+            "descricao": "Com sensor óptico de alta precisão com resolução real de 8500 DPI possui até 300 polegadas por segundo (IPS) / 35 G de aceleração máx, o design ergonômico derivado do Razer DeathAdder",
+            "preco": "R$445,00"
         },
         {
             "id": 3,
-            "nome": "Roupa Feminina",
-            "img": "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/3854721/2018/3/12/11520844673814-BARESKIN-Women-Black-Solid-Lightweight-Leather-Jacket-7761520844673718-5.jpg",
-            "descricao": "asdf asdf asdf ",
-            "preco": "R$77,00"
+            "nome": "Placa de Video",
+            "img": "/assets/img-produtos/placa-video.jpg",
+            "descricao": "Placa de vídeo Sapphire HD 7950 tem 3 GB de memória, clock central de 810 MHz e todas as tecnologias necessárias para dar a você a melhor experiência possível: AMD HD3D, AMD Catalyst Control CenterTM e AMD PowerTuneTM.",
+            "preco": "R$3.077,00"
+        },
+        {
+            "id": 4,
+            "nome": "Monitor LG 29' widescreen",
+            "img": "/assets/img-produtos/monitor-1.jpg",
+            "descricao": "A resolução (2560x1080) UltraWide™ Full HD de 21:9 oferece 33% mais espaço de tela em comparação com o monitor de resolução Full HD. Aproveite seu webinar com materiais maiores e mais participantes graças à ela.",
+            "preco": "R$1.128,00"
+        },
+        {
+            "id": 5,
+            "nome": "Mouse Gamer ",
+            "img": "/assets/img-produtos/mouse-3.jpg",
+            "descricao": "Com sensor óptico de alta precisão com resolução real de 8500 DPI possui até 300 polegadas por segundo (IPS) / 35 G de aceleração máx, o design ergonômico derivado do Razer DeathAdder",
+            "preco": "R$445,00"
+        },
+        {
+            "id": 6,
+            "nome": "Placa de Video",
+            "img": "/assets/img-produtos/placa-video.jpg",
+            "descricao": "Placa de vídeo Sapphire HD 7950 tem 3 GB de memória, clock central de 810 MHz e todas as tecnologias necessárias para dar a você a melhor experiência possível: AMD HD3D, AMD Catalyst Control CenterTM e AMD PowerTuneTM.",
+            "preco": "R$3.077,00"
+        },
+        {
+            "id": 7,
+            "nome": "Placa de Video",
+            "img": "/assets/img-produtos/placa-video.jpg",
+            "descricao": "Placa de vídeo Sapphire HD 7950 tem 3 GB de memória, clock central de 810 MHz e todas as tecnologias necessárias para dar a você a melhor experiência possível: AMD HD3D, AMD Catalyst Control CenterTM e AMD PowerTuneTM.",
+            "preco": "R$3.077,00"
+        },
+        {
+            "id": 8,
+            "nome": "Placa de Video",
+            "img": "/assets/img-produtos/placa-video.jpg",
+            "descricao": "Placa de vídeo Sapphire HD 7950 tem 3 GB de memória, clock central de 810 MHz e todas as tecnologias necessárias para dar a você a melhor experiência possível: AMD HD3D, AMD Catalyst Control CenterTM e AMD PowerTuneTM.",
+            "preco": "R$3.077,00"
         }
-        
 ]

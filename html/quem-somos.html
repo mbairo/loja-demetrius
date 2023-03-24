@@ -48,36 +48,7 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav me-auto mb-2 mb-md-0">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="/index.html">Home</a>0	
-                            foto	"../assets/criancas-comunicados.jpg"
-                            cardTitle	"Semana de provas!"
-                            cardText	"Fique atento! As provas vão do dia 22 de junho até o dia 1 de julho.<br>Não deixe para revisar na última hora e bons estudos!"
-                            linkSaibaMais	"agenda.html"
-                            1	
-                            foto	"../assets/ingles.jpeg"
-                            cardTitle	"Reforço de Inglês"
-                            cardText	"Não perca o aulão de lingua inglesa que vai acontecer no sábado dia 25 de junho. <br> Deixe anotado na sua agenda para não perder essa data!"
-                            linkSaibaMais	"agenda.html"
-                            2	
-                            foto	"../assets/biblioteca.webp"
-                            cardTitle	"Mudanças na Biblioteca!"
-                            cardText	"A bliblioteca ira inaugurar a nova área de leitura no próximo dia 27 de julho. <br> Uma área com sofás e puffs bem aconchegantes. Confira mais sobre lireratura no botão abaixo."
-                            linkSaibaMais	"https://www.curitiba.pr.gov.br/servicos/casas-da-leitura-tubotecas-estante-curitiba/592"
-                            3	
-                            foto	"../assets/curitiba.png"
-                            cardTitle	"+ Cultura"
-                            cardText	"Fiquem por dentro da cultura da sua cidade. <br> Curitiba é uma Cidade de cultura eclética, influenciada por imigrantes italianos, alemães, poloneses, ucranianos e asiáticos dos quais descende boa parte da população da Cidade..."
-                            linkSaibaMais	"http://www.curitiba-parana.net/cultura.htm"
-                            4	
-                            foto	"../assets/independencia.webp"
-                            cardTitle	"Não haverá aula!"
-                            cardText	"“Independência ou Morte” <br> Em virtude do feriado de Independência do Brasil, não haverá aula no dia 07 de setembro. <br> Aproveite para estudar sobre essa data..."
-                            linkSaibaMais	"https://www.educamaisbrasil.com.br/enem/historia/independencia-do-brasil"
-                            5	
-                            foto	"../assets/atencao.webp"
-                            cardTitle	"Achados e Perdidos!"
-                            cardText	"Achou ou Perdeu algo? Vá até a secretaria ou entre em contato diretamente pela página <b>Fale Conosco</b> clicando no botão abaixo."
-                            linkSaibaMais	"fale-conosco.html"
+                            <a class="nav-link" aria-current="page" href="/index.html">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/html/produtos.html">Produtos</a>
@@ -88,9 +59,13 @@
                         <li class="nav-item">
                             <a class="nav-link" href="/html/duvidas.html">Dúvidas</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/html/carrinho.html">Carrinho</a>
+                        </li>
                     </ul>
                     <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Pesquisar">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Pesquisar"
+                            id="search">
                         <button class="btn btn-outline-success" type="submit">Pesquisar</button>
                     </form>
                 </div>
@@ -123,14 +98,14 @@
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3603.7617591263866!2d-49.304759984517545!3d-25.41278418379638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce15d3cd86e8b%3A0x1be6185becd5ae10!2sR.%20Jos%C3%A9%20Casagrande%2C%20345%20-%20Vista%20Alegre%2C%20Curitiba%20-%20PR%2C%2080820-590!5e0!3m2!1spt-BR!2sbr!4v1679244373493!5m2!1spt-BR!2sbr"
             width="1300" height="450" style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <hr class="featurette-divider">
+        <hr class="featurette-divider">
     </div>
     <!-- Footer -->
     <footer class="container">
         <!-- whatsApp -->
         <p>&copy;ADB CNPJ: 87486746518468 &middot; <a href="#">Contato</a> &middot; <a href="#">Quem somos</a></p>
-        <a href="https://api.whatsapp.com/send/?phone=5541998775437&text&app_absent=0" class="float" target="_blank"><i
-                class="fa fa-whatsapp my-float"></i></a>
+        <a href="https://api.whatsapp.com/send/?phone=5541998775437&text&app_absent=0" class="whatsapp"
+            target="_blank"><i class="fa fa-whatsapp my-whatsapp"></i></a>
 
         <p class="float-right btn" id="btn-topo"><a href="#">Voltar ao topo</a></p>
     </footer>
@@ -139,14 +114,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
-    <!-- Popper - Talvez nao seja necessario utilizar -->
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <!-- Jquery - Talvez nao seja necessario utilizar -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
 </body>
 
 </html>

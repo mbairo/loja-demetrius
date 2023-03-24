@@ -11,66 +11,21 @@
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
   <link href="/css/carousel.css" rel="stylesheet">
   <!-- Bootstrap para o whatsapp-->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css ">
   <!-- Meu CSS -->
   <link href="/css/style.css" rel="stylesheet">
-  <link href="/css/footer.css" rel="stylesheet">
   <!-- Icon para o navegador  -->
   <link rel="icon" href="/assets/img-logo/box.png">
+
 </head>
 
 <body>
-  <header>
-    <!-- Logo e Nome -->
-    <div class="py-0 my-0" style="background-color: whitesmoke;">
-      <div class="container-fluid d-flex justify-content-center">
-        <nav class="navbar" style="background-color: whitesmoke">
-          <a class="navbar-brand mr-5" href="/html/home/index.html"><img height="110" src="/assets/img-logo/logo1.png"
-              alt="Logo"></a>
-          <span>
-            <h1 id="brand-name">DEMETRIUS</h1>
-          </span>
-        </nav>
-      </div>
-    </div>
-    <!-- Navbar padrão -->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Demetrius</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-          aria-controls="navbarCollapse" aria-expanded="false" aria-label="menu">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav me-auto mb-2 mb-md-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/html/produtos.html">Produtos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/html/quem-somos.html">Quem somos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/html/duvidas.html">Dúvidas</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/html/carrinho.html">Carrinho</a>
-            </li>
-          </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Pesquisar" id="search">
-            <button class="btn btn-outline-success" type="submit">Pesquisar</button>
-          </form>
-        </div>
-      </div>
-    </nav>
-  </header>
+    <!-- TODO: Alinhamento do header -->
+    <iframe src="header.html"></iframe>
+    <!-- <iframe class="container-fluid d-flex justify-content-center py-0 my-0 navbar navbar-brand mr-5" style="background-color: whitesmoke"  src="header.html"></iframe> -->
 
   <!-- Conteudo do Site -->
   <main>
-
 
     <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
@@ -133,10 +88,8 @@
 
     <!-- Destaques -->
     <div class="container marketing">
-      <i class="fa-regular fa-cart-shopping"></i>
       <h2 class="subtitle">DESTAQUES DA SEMANA</h2>
       <div class="row">
-
         <div class="col-lg-4">
           <img class="rounded-circle" src="/assets/img-produtos/monitor-1.jpg" alt="Generic placeholder image"
             width="140" height="140">
@@ -144,19 +97,16 @@
           <p>A resolução (2560x1080) UltraWide™ Full HD de 21:9 oferece 33% mais espaço de tela em comparação com o
             monitor de resolução Full HD. Aproveite seu webinar com materiais maiores e mais participantes graças à
             tela.</p>
-          <p><a class="btn btn-outline-success ver-mais" href="#" role="button" id="1">Ver &raquo;</a></p>
+          <p><a class="btn btn-outline-success" href="#" role="button">Ver &raquo;</a></p>
         </div>
-
-
         <div class="col-lg-4">
           <img class="rounded-circle" src="/assets/img-produtos/mouse-3.jpg" alt="Generic placeholder image" width="140"
             height="140">
           <h2>Mouse</h2>
           <p>Com sensor óptico de alta precisão com resolução real de 8500 DPI possui até 300 polegadas por segundo
             (IPS) / 35 G de aceleração máx, o design ergonômico derivado do Razer DeathAdder.</p>
-          <p><a class="btn btn-outline-success ver-mais" href="#" role="button" id="2">Ver &raquo;</a></p>
+          <p><a class="btn btn-outline-success" href="#" role="button">Ver &raquo;</a></p>
         </div>
-
         <div class="col-lg-4">
           <img class="rounded-circle" src="/assets/img-produtos/placa-video.jpg" alt="Generic placeholder image"
             width="140" height="140">
@@ -164,7 +114,7 @@
           <p>Placa de vídeo Sapphire HD 7950 tem 3 GB de memória, clock central de 810 MHz e todas as tecnologias
             necessárias para dar a você a melhor experiência possível: AMD HD3D, AMD Catalyst Control CenterTM e AMD
             PowerTuneTM.</p>
-          <p><a class="btn btn-outline-success ver-mais" href="#" role="button" id="3">Ver &raquo;</a></p>
+          <p><a class="btn btn-outline-success" href="#" role="button">Ver &raquo;</a></p>
         </div>
       </div>
 
@@ -178,7 +128,7 @@
             Core™ de 12ª geração incorporado na nova arquitetura de núcleo híbrido. Juntamente com uma solução de
             memória 1TB SSD, a LPDDR5 rápida, e um sistema de resfriamento avançado. Possui a placa de vídeo Intel Iris
             Xe e também a nova placa dedicada Intel Arc, para um desempenho profissional.</p>
-          <p><a class="btn btn-outline-success ver-mais" href="#" role="button" id="4">Ver &raquo;</a></p>
+          <p><a class="btn btn-outline-success" href="#" role="button">Ver &raquo;</a></p>
         </div>
         <div class="col-md-5">
           <img class="featurette-image img-fluid mx-auto" src="/assets/img-produtos/laptop-2.jpg"
@@ -195,7 +145,7 @@
           </h2>
           <p class="lead">Três novos processadores AMD Ryzen Série 7000 - AMD 3D V-Cache™ para um enorme aumento de
             desempenho em jogos...</p>
-          <p><a class="btn btn-outline-success ver-mais" href="#" role="button" id="5">Ver &raquo;</a></p>
+          <p><a class="btn btn-outline-success" href="#" role="button">Ver &raquo;</a></p>
         </div>
         <div class="col-md-5 order-md-1">
           <img class="featurette-image img-fluid mx-auto" src="/assets/img-produtos/processador.jpg"
@@ -212,7 +162,7 @@
             quando você faz login e compras.
             O Magic Keyboard com Touch ID e teclado numérico oferece muito conforto e precisão ao digitar. Ele é maior,
             tem controles de navegação para percorrer...</p>
-          <p><a class="btn btn-outline-success ver-mais" href="#" role="button" id="6">Ver &raquo;</a></p>
+          <p><a class="btn btn-outline-success" href="#" role="button">Ver &raquo;</a></p>
         </div>
         <div class="col-md-5">
           <img class="featurette-image img-fluid mx-auto" src="/assets/img-produtos/teclado-1.jpg"
@@ -223,55 +173,22 @@
       <hr class="featurette-divider">
     </div>
 
-    <footer>
-      <section>
-        <div id="containerFooter">
+    <div id="iframe-wrapper"></div>
+    <footer class="container">
 
-          <div id="webFooter">
-            <h3> Loja </h3>
-            <p> Computador </p>
-            <p> Para o dia-a-dia </p>
-            <p> Eletrodomésticos </p>
-          </div>
-          <div id="webFooter">
-            <h3> helpful link </h3>
-            <p> home </p>
-            <p> about </p>
-            <p> contact </p>
-          </div>
-          <div id="webFooter">
-            <h3> Marcas </h3>
-            <p> LG </p>
-            <p> Apple </p>
-            <p> Samsung </p>
-          </div>
-          <div id="webFooter">
-            <h3> Endereço </h3>
-            <p> R. José Casagrande, 345 </p>
-            <p> Curitiba-PR </p>
-            <P> Mapa </P>
-          </div>
-        </div>
-        <p style="text-align: center; font-size: 15px;">&copy;DEMETRIUS CNPJ: 87486746518468</p>
-      </section>
-      <a href="https://api.whatsapp.com/send/?phone=5541998775437&text&app_absent=0" class="whatsapp" target="_blank"><i
-          class="fa fa-whatsapp my-whatsapp"></i></a>
     </footer>
   </main>
   <!-- JS Bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
-  <!-- Popper - Talvez nao seja necessario utilizar -->
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
   <!-- Jquery -->
   <script src="https://code.jquery.com/jquery-3.6.4.min.js"
     integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
-  <!-- Meu Js -->
-  <script src="/js/index.js"></script>
-
+    <!-- Meu js -->
+    <script src="../js/index.js"></script>
 </body>
 
 </html>
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script> -->

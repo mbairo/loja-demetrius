@@ -5,15 +5,21 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="mbairo" content="">
-  <title>Demetrius/title>
+  <title>Empresa ADB</title>
   <!-- CSS Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <!-- Carrossel -->
   <link href="/css/carousel.css" rel="stylesheet">
-  <!-- Bootstrap para o whatsapp-->
+  <!-- ICONS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+  <!-- Whatsapp-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <!-- Meu CSS -->
   <link href="/css/style.css" rel="stylesheet">
+  <link href="/css/produto-detalhes.css" rel="style">
+
   <!-- Icon para o navegador  -->
   <link rel="icon" href="/assets/img-logo/box.png">
 </head>
@@ -55,9 +61,12 @@
             <li class="nav-item">
               <a class="nav-link" href="/html/duvidas.html">Dúvidas</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="/html/carrinho.html">Carrinho</a>
+          </li>
           </ul>
           <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Pesquisar">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Pesquisar" id="search">
             <button class="btn btn-outline-success" type="submit">Pesquisar</button>
           </form>
         </div>
@@ -68,34 +77,41 @@
   <!-- Conteudo do Site -->
   <main>
 
-    <section class="h-100 h-custom" style="background-color: #eee;">
+    <div class="container marketing"><br>
+
+
+
+
+
+
+
+      <section class="h-100 h-custom" style="background-color: #eee;">
         <div class="container py-5 h-100">
           <div class="row d-flex justify-content-center align-items-center h-100">
             <div class="col">
               <div class="card">
                 <div class="card-body p-4">
-      
+
                   <div class="row">
-      
+
                     <div class="col-lg-7">
                       <h5 class="mb-3"><a href="#!" class="text-body"><i
                             class="fas fa-long-arrow-alt-left me-2"></i>Continuar comprando</a></h5>
                       <hr>
-      
+
                       <div class="d-flex justify-content-between align-items-center mb-4">
-                        <div>                
+                        <div>
                           <p class="mb-0">Você tem 4 itens no seu carrinho que você merece</p>
                         </div>
                       </div>
-      
+
                       <div class="card mb-3">
                         <div class="card-body">
                           <div class="d-flex justify-content-between">
                             <div class="d-flex flex-row align-items-center">
                               <div>
-                                <img
-                                  src="/assets/img-produtos/laptop-1.jpg"
-                                  class="img-fluid rounded-3" alt="Shopping item" style="width: 65px;">
+                                <img src="/assets/img-produtos/laptop-1.jpg" class="img-fluid rounded-3"
+                                  alt="Shopping item" style="width: 65px;">
                               </div>
                               <div class="ms-3">
                                 <h5>Samsung Note-S</h5>
@@ -114,15 +130,14 @@
                           </div>
                         </div>
                       </div>
-      
+
                       <div class="card mb-3">
                         <div class="card-body">
                           <div class="d-flex justify-content-between">
                             <div class="d-flex flex-row align-items-center">
                               <div>
-                                <img
-                                src="/assets/img-produtos/laptop-2.jpg"
-                                  class="img-fluid rounded-3" alt="Shopping item" style="width: 65px;">
+                                <img src="/assets/img-produtos/laptop-2.jpg" class="img-fluid rounded-3"
+                                  alt="Shopping item" style="width: 65px;">
                               </div>
                               <div class="ms-3">
                                 <h5>LG - Pro X34 </h5>
@@ -141,15 +156,14 @@
                           </div>
                         </div>
                       </div>
-      
+
                       <div class="card mb-3">
                         <div class="card-body">
                           <div class="d-flex justify-content-between">
                             <div class="d-flex flex-row align-items-center">
                               <div>
-                                <img
-                                src="/assets/img-produtos/placa-video.jpg"
-                                  class="img-fluid rounded-3" alt="Shopping item" style="width: 65px;">
+                                <img src="/assets/img-produtos/placa-video.jpg" class="img-fluid rounded-3"
+                                  alt="Shopping item" style="width: 65px;">
                               </div>
                               <div class="ms-3">
                                 <h5>AMD 7950</h5>
@@ -168,15 +182,14 @@
                           </div>
                         </div>
                       </div>
-      
+
                       <div class="card mb-3 mb-lg-0">
                         <div class="card-body">
                           <div class="d-flex justify-content-between">
                             <div class="d-flex flex-row align-items-center">
                               <div>
-                                <img
-                                src="/assets/img-produtos/teclado-1.jpg"
-                                  class="img-fluid rounded-3" alt="Shopping item" style="width: 65px;">
+                                <img src="/assets/img-produtos/teclado-1.jpg" class="img-fluid rounded-3"
+                                  alt="Shopping item" style="width: 65px;">
                               </div>
                               <div class="ms-3">
                                 <h5>Apple Touch</h5>
@@ -199,35 +212,33 @@
 
 
                     <div class="col-lg-5">
-      
+
                       <div class="card text-white rounded-3" style="background-color: rgb(52, 43, 59);">
                         <div class="card-body">
                           <div class="d-flex justify-content-between align-items-center mb-4">
                             <h5 class="mb-0">Formas de pagamento</h5>
                           </div>
-      
+
                           <p class="small mb-2">Bandeiras</p>
                           <a href="#!" type="submit" class="text-white"><i
                               class="fab fa-cc-mastercard fa-2x me-2"></i></a>
-                          <a href="#!" type="submit" class="text-white"><i
-                              class="fab fa-cc-visa fa-2x me-2"></i></a>
-                          <a href="#!" type="submit" class="text-white"><i
-                              class="fab fa-cc-amex fa-2x me-2"></i></a>
+                          <a href="#!" type="submit" class="text-white"><i class="fab fa-cc-visa fa-2x me-2"></i></a>
+                          <a href="#!" type="submit" class="text-white"><i class="fab fa-cc-amex fa-2x me-2"></i></a>
                           <a href="#!" type="submit" class="text-white"><i class="fab fa-cc-paypal fa-2x"></i></a>
-      
+
                           <form class="mt-4">
                             <div class="form-outline form-white mb-4">
                               <input type="text" id="typeName" class="form-control form-control-lg" siez="17"
                                 placeholder="Nome" />
                               <label class="form-label" for="typeName">Nomo igual ao que está no cartão</label>
                             </div>
-      
+
                             <div class="form-outline form-white mb-4">
                               <input type="text" id="typeText" class="form-control form-control-lg" siez="17"
                                 placeholder="Número do cartão" minlength="19" maxlength="19" />
                               <label class="form-label" for="typeText">Número do cartão</label>
                             </div>
-      
+
                             <div class="row mb-4">
                               <div class="col-md-6">
                                 <div class="form-outline form-white">
@@ -244,48 +255,39 @@
                                 </div>
                               </div>
                             </div>
-      
                           </form>
-      
                           <hr class="my-4">
-      
                           <div class="d-flex justify-content-between">
                             <p class="mb-2">Total</p>
                             <p class="mb-2">R$12.634.00</p>
                           </div>
-      
                           <div class="d-flex justify-content-between">
                             <p class="mb-2">Entrega</p>
                             <p class="mb-2">GRÁTIS</p>
                           </div>
-      
                           <div class="d-flex justify-content-between mb-4">
                             <p class="mb-2">Total(c/ entrega)</p>
                             <p class="mb-2">R$12.634,00</p>
                           </div>
-      
-                          <button type="button" class="btn btn-block btn-lg" style="background-color: rgb(219, 80, 80);">
+                          <button type="button" class="btn btn-block btn-lg"
+                            style="background-color: rgb(219, 80, 80);">
                             <div class="d-flex justify-content-between">
-                              <span>Pagar: R$12.634,00</span>                        
+                              <span>Pagar: R$12.634,00</span>
                             </div>
                           </button>
-      
                         </div>
                       </div>
-                      
-                    <p>
-                        <div class="card mb-1 col-md-12" style="text-align: center; background-color: rgb(247, 247, 119);">
-                            <div class="card-body">
-                              <p ><strong>Expectativa de entrega</strong></p>
-                              <p class="mb-0">27/04/2023</p>
-                            </div>
-                        </div>                          
-                    </p>
+                      <p>
+                      <div class="card mb-1 col-md-12"
+                        style="text-align: center; background-color: rgb(247, 247, 119);">
+                        <div class="card-body">
+                          <p><strong>Expectativa de entrega</strong></p>
+                          <p class="mb-0">27/04/2023</p>
+                        </div>
+                      </div>
+                      </p>
                     </div>
-
-                          
                   </div>
-      
                 </div>
               </div>
             </div>
@@ -293,32 +295,27 @@
         </div>
       </section>
 
+    </div><!-- Fim do /.container -->
 
-
-
-
+    <!-- Footer -->
     <footer class="container">
-        <!-- whatsApp -->
-        <p>&copy;ADB CNPJ: 87486746518468 &middot; <a href="#">Contato</a> &middot; <a href="#">Quem somos</a></p>
-        <a href="https://api.whatsapp.com/send/?phone=5541998775437&text&app_absent=0" class="float" target="_blank"><i
-            class="fa fa-whatsapp my-float"></i></a>
-  
-        <p class="float-right btn" id="btn-topo"><a href="#">Voltar ao topo</a></p>
-  
-      </footer>
-    </main>
-    <!-- JS Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-      crossorigin="anonymous"></script>
-    <!-- Popper - Talvez nao seja necessario utilizar -->
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"></script>
-    <!-- Jquery - Talvez nao seja necessario utilizar -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"></script>
-  </body>
-  
-  </html>
+      <!-- whatsApp -->
+      <p>&copy;ADB CNPJ: 87486746518468 &middot; <a href="#">Contato</a> &middot; <a href="#">Quem somos</a></p>
+      <a href="https://api.whatsapp.com/send/?phone=5541998775437&text&app_absent=0" class="whatsapp" target="_blank"><i
+        class="fa fa-whatsapp my-whatsapp"></i></a>
+
+      <p class="float-right btn" id="btn-topo"><a href="#">Voltar ao topo</a></p>
+    </footer>
+  </main>
+  <!-- JS Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <!-- Jquery -->
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+    integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+
+  <script src="/js/produto-detalhes.js"></script>
+</body>
+
+</html>
