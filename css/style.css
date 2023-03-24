@@ -54,3 +54,22 @@ position: relative;
 	grid-template-columns: repeat(auto-fit, minmax(350px, auto));
 	grid-gap: 50px;
 }
+
+
+#preco {
+    font-size: 1.2rem;
+    color: black;
+    text-align: center;
+}
+
+
+.cardTitle{
+    font-size: 1.1rem;
+    color: black;
+    text-align: center;
+
+}
+
+#btn-invisivel {
+    position:fixed;
+}

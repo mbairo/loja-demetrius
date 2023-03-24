@@ -9,38 +9,44 @@ http.onload = function () {
         for (let item of produtosJson) {
             constroiCard += `
             <div class="row">
-                <div class="col-sm-6">
-                    <div class="card ver-mais" style="width: 18rem;">
-                        <div class="card-body">
+                <div class="col-sm-6">                
+                    <div class="card"  style="width: 18rem;  ">                                    
+                        <div class="card-body">                         
                             <img class="card-img-top" src="${item.img}">
-                            <div class="card-body">
-                                <p class="cardTitle">${item.nome}</p>                                
+                            <div class="card-body">                                                                                            
                                 <p>${item.preco}</p>                                  
-                            </div>                                      
-                        </div>                                          
+                            </div>                                                                  
+                        </div>                                     
+                        <a class="btn btn-primary ver-mais" target="_blank">${item.id}</a>                       		                                         
                     </div>             
-                </div>                  
+                </div>                          
             </div> 
         `;
         }
 
         document.querySelector("#produtos").innerHTML = constroiCard;
-        console.log("Aeeeeeee: ", constroiCard);
     }
 
+    
     document.querySelectorAll(".ver-mais").forEach( function(produtoClicado) {    
         produtoClicado.addEventListener("click", function(evento) {
+        
         const elementoClicado = evento.target;
-        produtosJson.id 
-            
+        
+        $(function(){
+            var valorDoId = $(elementoClicado).text();    
+            console.log("Valor do Id JQuery: " + valorDoId);
+
+            window.open('/html/produto-detalhes.html?id=' + valorDoId) 
+        });
 
 
-        const id = elementoClicado.id;
-        window.alert("Id clicado: " + id);      
-        window.open('/html/produto-detalhes.html?id=' + id) 
+        
       });
     });
     
+
+
     
 } 
 
